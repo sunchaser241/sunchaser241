@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Priyanshu Srivastav | Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+overflow-x:hidden;
+}
+
+header{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:50px;
+}
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+max-width:1200px;
+width:100%;
+gap:60px;
+flex-wrap:wrap;
+}
+
+.left{
+flex:1;
+}
+
+.left h1{
+font-size:60px;
+font-weight:700;
+line-height:1.2;
+}
+
+.left h1 span{
+color:#38bdf8;
+}
+
+.left p{
+margin-top:20px;
+font-size:20px;
+color:#cbd5e1;
+line-height:1.8;
+}
+
+.buttons{
+margin-top:35px;
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.btn{
+padding:14px 28px;
+background:#38bdf8;
+color:#fff;
+text-decoration:none;
+border-radius:10px;
+font-weight:600;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-4px);
+background:#0ea5e9;
+}
+
+.btn2{
+background:transparent;
+border:2px solid #38bdf8;
+}
+
+.right{
+flex:1;
+display:flex;
+justify-content:center;
+}
+
+.circle{
+width:320px;
+height:320px;
+border-radius:50%;
+background:linear-gradient(135deg,#38bdf8,#6366f1);
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:140px;
+font-weight:bold;
+}
+
+section{
+padding:90px 10%;
+}
+
+.title{
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+}
+
+.about{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:30px;
+}
+
+.card{
+background:#1e293b;
+padding:30px;
+border-radius:18px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+gap:20px;
+}
+
+.skill{
+background:#1e293b;
+padding:25px;
+border-radius:15px;
+text-align:center;
+transition:.3s;
+}
+
+.skill:hover{
+background:#2563eb;
+transform:scale(1.05);
+}
+
+.skill i{
+font-size:50px;
+margin-bottom:15px;
+color:#38bdf8;
+}
+
+.links{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.links a{
+padding:16px 28px;
+background:#1e293b;
+color:white;
+border-radius:12px;
+text-decoration:none;
+font-size:18px;
+transition:.3s;
+}
+
+.links a:hover{
+background:#2563eb;
+}
+
+footer{
+padding:40px;
+text-align:center;
+color:#94a3b8;
+}
+
+@media(max-width:768px){
+
+.left h1{
+font-size:42px;
+}
+
+.left p{
+font-size:18px;
+}
+
+.circle{
+width:240px;
+height:240px;
+font-size:100px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="hero">
+
+<div class="left">
+
+<h1>Hi 👋<br>I'm <span>Priyanshu Srivastav</span></h1>
+
+<p>
+Pre-Final Year Computer Science Student<br>
+Python Developer • Frontend Developer • ML Enthusiast
+</p>
+
+<div class="buttons">
+
+<a href="https://www.linkedin.com/in/priyanshu-srivastav-a24a0627b/" class="btn" target="_blank">
+LinkedIn
+</a>
+
+<a href="#skills" class="btn btn2">
+My Skills
+</a>
+
+</div>
+
+</div>
+
+<div class="right">
+
+<div class="circle">
+PS
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+<section>
+
+<h2 class="title">About Me</h2>
+
+<div class="about">
+
+<div class="card">
+<h2>🎓 Education</h2>
+<br>
+<p>
+B.Tech in Computer Science Engineering<br>
+ABES Engineering College
+</p>
+</div>
+
+<div class="card">
+<h2>💼 Experience</h2>
+<br>
+<p>
+• Python Developer Intern @ Pinnacle Labs
+<br><br>
+• Operations Executive @ Exam Hyphen
+<br><br>
+• Graphics Team Member @ Technovation
+</p>
+</div>
+
+<div class="card">
+<h2>🚀 Currently Learning</h2>
+<br>
+<p>
+Machine Learning<br>
+Java DSA<br>
+React<br>
+System Design
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="title">Tech Stack</h2>
+
+<div class="skills">
+
+<div class="skill">
+<i class="fab fa-python"></i>
+<h3>Python</h3>
+</div>
+
+<div class="skill">
+<i class="fab fa-java"></i>
+<h3>Java</h3>
+</div>
+
+<div class="skill">
+<i class="fab fa-html5"></i>
+<h3>HTML5</h3>
+</div>
+
+<div class="skill">
+<i class="fab fa-css3-alt"></i>
+<h3>CSS3</h3>
+</div>
+
+<div class="skill">
+<i class="fab fa-js"></i>
+<h3>JavaScript</h3>
+</div>
+
+<div class="skill">
+<i class="fab fa-react"></i>
+<h3>React</h3>
+</div>
+
+<div class="skill">
+<i class="fab fa-git-alt"></i>
+<h3>Git</h3>
+</div>
+
+<div class="skill">
+<i class="fab fa-github"></i>
+<h3>GitHub</h3>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">Coding Profiles</h2>
+
+<div class="links">
+
+<a href="https://leetcode.com/u/sunchaser_241/" target="_blank">
+💻 LeetCode
+</a>
+
+<a href="https://www.codechef.com/users/cse23_b0101766" target="_blank">
+🍜 CodeChef
+</a>
+
+<a href="https://www.linkedin.com/in/priyanshu-srivastav-a24a0627b/" target="_blank">
+💼 LinkedIn
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>⭐ Thanks for visiting my portfolio ⭐</h3>
+
+<br>
+
+<p>Designed by Priyanshu Srivastav</p>
+
+</footer>
+
+</body>
+</html>
